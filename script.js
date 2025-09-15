@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // Thay thế 'YOUR_API_GATEWAY_ENDPOINT' bằng URL API thực tế của bạn
-            const response = await fetch('https://05njq8omqa.execute-api.ap-southeast-1.amazonaws.com/prod/predict', {
+            const response = await fetch('https://dy2g2t4jhl.execute-api.ap-southeast-1.amazonaws.com/prod2/predict', {
                 method: 'POST',
                 body: formData
             });
